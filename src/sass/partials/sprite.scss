@@ -1,0 +1,255 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$check-name: 'check';
+$check-x: 107px;
+$check-y: 78px;
+$check-offset-x: -107px;
+$check-offset-y: -78px;
+$check-width: 13px;
+$check-height: 9px;
+$check-total-width: 141px;
+$check-total-height: 138px;
+$check-image: '../images/sprite.png';
+$check: (107px, 78px, -107px, -78px, 13px, 9px, 141px, 138px, '../images/sprite.png', 'check', );
+$email-header-red-name: 'email-header-red';
+$email-header-red-x: 30px;
+$email-header-red-y: 115px;
+$email-header-red-offset-x: -30px;
+$email-header-red-offset-y: -115px;
+$email-header-red-width: 23px;
+$email-header-red-height: 18px;
+$email-header-red-total-width: 141px;
+$email-header-red-total-height: 138px;
+$email-header-red-image: '../images/sprite.png';
+$email-header-red: (30px, 115px, -30px, -115px, 23px, 18px, 141px, 138px, '../images/sprite.png', 'email-header-red', );
+$email-name: 'email';
+$email-x: 59px;
+$email-y: 0px;
+$email-offset-x: -59px;
+$email-offset-y: 0px;
+$email-width: 46px;
+$email-height: 36px;
+$email-total-width: 141px;
+$email-total-height: 138px;
+$email-image: '../images/sprite.png';
+$email: (59px, 0px, -59px, 0px, 46px, 36px, 141px, 138px, '../images/sprite.png', 'email', );
+$fb-white-name: 'fb-white';
+$fb-white-x: 84px;
+$fb-white-y: 48px;
+$fb-white-offset-x: -84px;
+$fb-white-offset-y: -48px;
+$fb-white-width: 14px;
+$fb-white-height: 34px;
+$fb-white-total-width: 141px;
+$fb-white-total-height: 138px;
+$fb-white-image: '../images/sprite.png';
+$fb-white: (84px, 48px, -84px, -48px, 14px, 34px, 141px, 138px, '../images/sprite.png', 'fb-white', );
+$googleplus-white-name: 'googleplus-white';
+$googleplus-white-x: 107px;
+$googleplus-white-y: 0px;
+$googleplus-white-offset-x: -107px;
+$googleplus-white-offset-y: 0px;
+$googleplus-white-width: 34px;
+$googleplus-white-height: 26px;
+$googleplus-white-total-width: 141px;
+$googleplus-white-total-height: 138px;
+$googleplus-white-image: '../images/sprite.png';
+$googleplus-white: (107px, 0px, -107px, 0px, 34px, 26px, 141px, 138px, '../images/sprite.png', 'googleplus-white', );
+$list-bag-name: 'list-bag';
+$list-bag-x: 107px;
+$list-bag-y: 28px;
+$list-bag-offset-x: -107px;
+$list-bag-offset-y: -28px;
+$list-bag-width: 28px;
+$list-bag-height: 23px;
+$list-bag-total-width: 141px;
+$list-bag-total-height: 138px;
+$list-bag-image: '../images/sprite.png';
+$list-bag: (107px, 28px, -107px, -28px, 28px, 23px, 141px, 138px, '../images/sprite.png', 'list-bag', );
+$list-earth-name: 'list-earth';
+$list-earth-x: 107px;
+$list-earth-y: 53px;
+$list-earth-offset-x: -107px;
+$list-earth-offset-y: -53px;
+$list-earth-width: 28px;
+$list-earth-height: 23px;
+$list-earth-total-width: 141px;
+$list-earth-total-height: 138px;
+$list-earth-image: '../images/sprite.png';
+$list-earth: (107px, 53px, -107px, -53px, 28px, 23px, 141px, 138px, '../images/sprite.png', 'list-earth', );
+$list-fax-name: 'list-fax';
+$list-fax-x: 0px;
+$list-fax-y: 90px;
+$list-fax-offset-x: 0px;
+$list-fax-offset-y: -90px;
+$list-fax-width: 28px;
+$list-fax-height: 23px;
+$list-fax-total-width: 141px;
+$list-fax-total-height: 138px;
+$list-fax-image: '../images/sprite.png';
+$list-fax: (0px, 90px, 0px, -90px, 28px, 23px, 141px, 138px, '../images/sprite.png', 'list-fax', );
+$list-man-name: 'list-man';
+$list-man-x: 30px;
+$list-man-y: 90px;
+$list-man-offset-x: -30px;
+$list-man-offset-y: -90px;
+$list-man-width: 28px;
+$list-man-height: 23px;
+$list-man-total-width: 141px;
+$list-man-total-height: 138px;
+$list-man-image: '../images/sprite.png';
+$list-man: (30px, 90px, -30px, -90px, 28px, 23px, 141px, 138px, '../images/sprite.png', 'list-man', );
+$list-men-set-name: 'list-men-set';
+$list-men-set-x: 60px;
+$list-men-set-y: 90px;
+$list-men-set-offset-x: -60px;
+$list-men-set-offset-y: -90px;
+$list-men-set-width: 28px;
+$list-men-set-height: 23px;
+$list-men-set-total-width: 141px;
+$list-men-set-total-height: 138px;
+$list-men-set-image: '../images/sprite.png';
+$list-men-set: (60px, 90px, -60px, -90px, 28px, 23px, 141px, 138px, '../images/sprite.png', 'list-men-set', );
+$list-men-name: 'list-men';
+$list-men-x: 90px;
+$list-men-y: 90px;
+$list-men-offset-x: -90px;
+$list-men-offset-y: -90px;
+$list-men-width: 28px;
+$list-men-height: 23px;
+$list-men-total-width: 141px;
+$list-men-total-height: 138px;
+$list-men-image: '../images/sprite.png';
+$list-men: (90px, 90px, -90px, -90px, 28px, 23px, 141px, 138px, '../images/sprite.png', 'list-men', );
+$list-network-name: 'list-network';
+$list-network-x: 0px;
+$list-network-y: 115px;
+$list-network-offset-x: 0px;
+$list-network-offset-y: -115px;
+$list-network-width: 28px;
+$list-network-height: 23px;
+$list-network-total-width: 141px;
+$list-network-total-height: 138px;
+$list-network-image: '../images/sprite.png';
+$list-network: (0px, 115px, 0px, -115px, 28px, 23px, 141px, 138px, '../images/sprite.png', 'list-network', );
+$phone-header-red-name: 'phone-header-red';
+$phone-header-red-x: 120px;
+$phone-header-red-y: 90px;
+$phone-header-red-offset-x: -120px;
+$phone-header-red-offset-y: -90px;
+$phone-header-red-width: 20px;
+$phone-header-red-height: 20px;
+$phone-header-red-total-width: 141px;
+$phone-header-red-total-height: 138px;
+$phone-header-red-image: '../images/sprite.png';
+$phone-header-red: (120px, 90px, -120px, -90px, 20px, 20px, 141px, 138px, '../images/sprite.png', 'phone-header-red', );
+$phone-header-name: 'phone-header';
+$phone-header-x: 42px;
+$phone-header-y: 48px;
+$phone-header-offset-x: -42px;
+$phone-header-offset-y: -48px;
+$phone-header-width: 40px;
+$phone-header-height: 40px;
+$phone-header-total-width: 141px;
+$phone-header-total-height: 138px;
+$phone-header-image: '../images/sprite.png';
+$phone-header: (42px, 48px, -42px, -48px, 40px, 40px, 141px, 138px, '../images/sprite.png', 'phone-header', );
+$phone-white-name: 'phone-white';
+$phone-white-x: 0px;
+$phone-white-y: 48px;
+$phone-white-offset-x: 0px;
+$phone-white-offset-y: -48px;
+$phone-white-width: 40px;
+$phone-white-height: 40px;
+$phone-white-total-width: 141px;
+$phone-white-total-height: 138px;
+$phone-white-image: '../images/sprite.png';
+$phone-white: (0px, 48px, 0px, -48px, 40px, 40px, 141px, 138px, '../images/sprite.png', 'phone-white', );
+$quote-name: 'quote';
+$quote-x: 0px;
+$quote-y: 0px;
+$quote-offset-x: 0px;
+$quote-offset-y: 0px;
+$quote-width: 57px;
+$quote-height: 46px;
+$quote-total-width: 141px;
+$quote-total-height: 138px;
+$quote-image: '../images/sprite.png';
+$quote: (0px, 0px, 0px, 0px, 57px, 46px, 141px, 138px, '../images/sprite.png', 'quote', );
+$spritesheet-width: 141px;
+$spritesheet-height: 138px;
+$spritesheet-image: '../images/sprite.png';
+$spritesheet-sprites: ($check, $email-header-red, $email, $fb-white, $googleplus-white, $list-bag, $list-earth, $list-fax, $list-man, $list-men-set, $list-men, $list-network, $phone-header-red, $phone-header, $phone-white, $quote, );
+$spritesheet: (141px, 138px, '../images/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@import "normalize";
+@import "partials/_variables";
+@import "partials/mixins";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "../../node_modules/flickity/dist/flickity";
+@import "partials/flickity";
+@import "partials/sprite";
+@import "partials/fonts";
+@import "partials/grid";
+@import "general";
+@import "partials/header";
+@import "partials/form";

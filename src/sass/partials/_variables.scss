@@ -1,0 +1,41 @@
+// ----------------------- /
+//   GRID                  /
+// ----------------------- /
+$grid-gutter: 30px;
+$grid-columns: 12;
+$grid-max-width: 1200px;
+
+// ----------------------- /
+//   BREACKPOINTS          /
+// ----------------------- /
+$xs-min-with: 480px;
+$sm-min-with: 768px;
+$md-min-with: 1200px;
+$lg-min-with: 1760px;
+
+// ----------------------- /
+//   FONTS                 /
+// ----------------------- /
+$font-normal: 'Proxima Nova Rg';
+$font-bold: 'Proxima Nova Bl';
+
+$fa-font-path:        "../fonts";
+
+// ----------------------- /
+//   TEXT COLORS           /
+// ----------------------- /
+$primary-text-color: #687D96;
+$header-text-color: #2A3F54;
+
+$red-color: #C70C0E;
+
+// ----------------------- /
+//   BUTTONS COLORS        /
+// ----------------------- /
+$btn-default-bg: $primary-text-color;
+$btn-default-color: #ffffff;
+$btn-primary-bg: #DC5447;
+$btn-primary-color: $btn-default-color;
+
+
+

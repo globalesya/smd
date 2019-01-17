@@ -1,0 +1,62 @@
+.flickity-prev-next-button {
+  top: 50%;
+  width: 25px;
+  height: 50px;
+  border-radius: 0;
+  background: none;
+  padding: 0;
+
+  @include breakpoint(sm) {
+    width: 15px;
+    height:30px;
+  }
+
+  .flickity-button-icon {
+    left: 0;
+    top: 0;
+    width: auto;
+    height: 100%;
+    fill: $primary-text-color;
+    //fill: #ffffff;
+  }
+
+  &.next {
+    right: 0;
+
+    .flickity-button-icon {
+      left: auto;
+      right: 0;
+    }
+  }
+
+  &.previous {
+    left: 0;
+  }
+
+  &:hover {
+    background: none;
+
+    .flickity-button-icon {
+      fill: $red-color;
+    }
+  }
+}
+
+.flickity-page-dots {
+  .dot {
+    margin: 0 8px;
+    background: $primary-text-color;
+    opacity: 1;
+
+    &.is-selected {
+      background: $header-text-color;
+      border: 5px solid  $header-text-color;
+      position: relative;
+      bottom: -5px;
+    }
+
+    &:hover {
+      background: $btn-primary-bg;
+    }
+  }
+}

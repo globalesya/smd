@@ -1,0 +1,54 @@
+// ----------------------- /
+//   GRID                  /
+// ----------------------- /
+
+@include grid-generator(xs, 4);
+
+@include respond-from(sm) {
+  @include grid-generator(sm, 12);
+}
+
+@include respond-from(md) {
+  @include grid-generator(md, 12);
+}
+
+@include respond-from(lg) {
+  @include grid-generator(lg, 12);
+}
+
+.grid-container {
+  max-width: $grid-max-width;
+  margin: 0 auto;
+}
+
+.grid-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+
+  .grid-row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+}
+
+.grid-cell {
+  padding: $grid-gutter/2;
+  box-sizing: border-box;
+}
+
+.hide {
+
+  @include breakpoint(sm) {
+    &-sm {
+      display: none;
+    }
+  }
+
+  @include breakpoint(md) {
+    &-md {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+@mixin respond-from($media) {
+  @if $media == xs {
+    @media (min-width: 0px)  { @content; }
+  } @else if $media == sm {
+    @media (min-width: $sm-min-with) { @content; }
+  } @else if $media == md {
+    @media (min-width: $md-min-with) { @content; }
+  } @else if $media == lg {
+    @media (min-width: $lg-min-with) { @content; }
+  }
+}
+
+@mixin grid-generator($size, $grid-columns) {
+  @for $i from 1 through $grid-columns {
+    .col-#{$size}-#{$i} {
+      width: percentage($i / $grid-columns);
+    }
+  }
+}
+
+@mixin breakpoint($point) {
+  @if $point == lg {
+    @media (max-width: $lg-min-with) {
+      @content;
+    }
+  } @else if $point == md {
+    @media (max-width: $md-min-with) {
+      @content;
+    }
+  } @else if $point == sm {
+    @media (max-width: $sm-min-with) {
+      @content;
+    }
+  } @else if $point == xs {
+    @media (max-width: $xs-min-with) {
+      @content;
+    }
+  }
+}
+

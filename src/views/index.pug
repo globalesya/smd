@@ -1,0 +1,411 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport' content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0')
+        meta(http-equiv='X-UA-Compatible' content='ie=edge')
+        title Document
+        link(rel="stylesheet",href="./css/style.css")
+
+    body
+        .wrapper
+
+            .fixed-right
+                a.btn.message(href="#contact-us")
+                    i.icon.icon-mail-white
+                    .text
+                        span.line1 Kontaktieren
+                        span.line2 sie uns
+
+                .btn.phone
+                    i.icon.icon-phone-white
+                    .text
+                        span.line2 02381 - 915-194
+
+
+            // HEADER
+            header.header
+                .header__logo
+                    a(href='/'): img.img-responsive(src='./images/smdlogo.png', alt='Stellen Markt - direkt')
+
+                .header__phone
+                    i.icon.header__phone--icon
+                    .header__phone--text
+                        span.line1 KOSTENLOSE BERATUNG
+                        span.line2 02381-915-194
+
+                .header__mobi
+                    a(href='#'): i.icon.header__mobi--email-icon
+                    a(href='#'): i.icon.header__mobi--phone-icon
+
+            // ADVANTAGES SECTION
+            .advantages
+                .advantages__bg-text
+                    | Mitarbeiter
+                    br
+                    | - suche
+                    br
+                    | 4.0
+
+                .advantages__content
+                    .advantages__content--img
+                        img.img-responsive(src='./images/wordcloud.png', alt='Worldcloud')
+
+                    .advantages__content--text
+                        h1.section-title(data-text="Mitarbeitersuche 4.0") Mitarbeitersuche 4.0
+                        .sub-title Alles aus einer Hand - Print, Online und soziale Medien!
+
+                        ul.list
+                            li
+                                i.icon.icon-list-network
+                                span mehr Bewerbungen durch Multi-Channel-Posting (MCP)
+                            li
+                                i.icon.icon-list-fax
+                                span mehr Reichweite Dank Cross Media Publishing
+                            li
+                                i.icon.icon-list-man
+                                span mehr als 350 angeschlossene Jobbörsen
+                            li
+                                i.icon.icon-list-bag
+                                span mehr als 20 Jahre Erfahrung
+                            li
+                                i.icon.icon-list-earth
+                                span nationale und internationale Referenzen
+                            li
+                                i.icon.icon-list-men-set
+                                span Stellenanzeigen on- und offline
+                            li
+                                i.icon.icon-list-men
+                                span inkl. sozialer Medien
+
+                        button.btn.btn--primary Mehr erfahren
+
+            // TARIFFS SECTION
+            .tariffs
+                .tariffs__bg-text ANGEBOTE
+
+                .tariffs__top
+                    .section-title(data-text="Weihnachtsaktion") Weihnachtsaktion
+                    .section-description Wenn Sie bis zum 21.12.2018 ein Premium- oder Individual-Paket buchen, erhalten Sie einen weiteren dritten Printtermin gratis dazu.
+
+                .tariffs__bottom.grid-container
+
+                    .tariffs__carousel.grid-row
+
+                        .carousel-cell.grid-cell.col-xs-4.col-sm-4
+                            .tariffs__carousel__item
+
+                                .tariffs__carousel__item--top
+                                    .tariffs__carousel__item--name Premium Paket
+
+                                    .tariffs__carousel__item__price
+                                        .tariffs__carousel__item__price--top
+                                            .tariffs__carousel__item__price--from(data-text="nur") nur
+                                            .tariffs__carousel__item__price--old
+                                                | statt
+                                                br
+                                                strike 1.500 EUR
+
+                                        .tariffs__carousel__item__price--bottom(data-text="750 EUR") 750 EUR
+
+                                    ul.tariffs__carousel__item--list
+                                        li 2 Premium-Online-Platzierungen
+                                        li 2 Printtermine (Gesamt Anzeigengrösse 250mm)
+                                        li bis zu 350 Jobbörsen
+                                        li soziale Medien
+                                        li 30 Tage
+
+                                .tariffs__carousel__item--bottom
+                                    button.btn Kontaktieren Sie uns
+
+                        .carousel-cell.grid-cell.col-xs-4.col-sm-4
+                            .tariffs__carousel__item
+
+                                .tariffs__carousel__item--top
+                                    .tariffs__carousel__item--name Individual Paket
+
+                                    .tariffs__carousel__item__price
+                                        .tariffs__carousel__item__price--top
+                                            .tariffs__carousel__item__price--from(data-text="nur") nur
+                                            .tariffs__carousel__item__price--old
+                                                | statt
+                                                br
+                                                strike 3.298 EUR
+
+                                        .tariffs__carousel__item__price--bottom(data-text="1.649 EUR") 1.649 EUR
+
+                                    ul.tariffs__carousel__item--list
+                                        li 2 Premium-Online-Platzierungen
+                                        li 2 Printtermine (Gesamt Anzeigengrösse bis 300mm)
+                                        li bis zu 350 Jobbörsen
+                                        li soziale Medien
+                                        li bis zu 20.000 zielgruppenorientierte Einblendungen bei Facebook
+                                        li 60 Tage
+
+                                .tariffs__carousel__item--bottom
+                                    button.btn Kontaktieren Sie uns
+
+
+                        .carousel-cell.grid-cell.col-xs-4.col-sm-4
+                            .tariffs__carousel__item
+
+                                .tariffs__carousel__item--top
+                                    .tariffs__carousel__item--name No-Limit Paket
+
+                                    .tariffs__carousel__item__price
+                                        .tariffs__carousel__item__price--top
+                                            .tariffs__carousel__item__price--from(data-text="nur") nur
+                                            .tariffs__carousel__item__price--old
+                                                | statt
+                                                br
+                                                strike 8.980 EUR
+
+                                        .tariffs__carousel__item__price--bottom(data-text="4.490 EUR") 4.490 EUR
+
+                                    ul.tariffs__carousel__item--list
+                                        li 6 Monate (alle Ihre Anzeigen)
+                                        li XML-Schnittstelle
+                                        li Statistikzugang
+                                        li bis zu 350 Jobbörsen
+                                        li Printoptinen
+                                        li Printoptinen
+
+                                .tariffs__carousel__item--bottom
+                                    button.btn Kontaktieren Sie uns
+
+
+
+            //REVIEWS SECTION
+            .reviews
+                .reviews__bg-text Kundenstimmen
+
+                .grid-container
+                    .grid-row
+                        .grid-cell.col-xs-4.col-sm-12
+                            .reviews__section-title Kundenstimmen
+
+                            .reviews__carousel
+                                .carousel-cell
+                                    .reviews__carousel__item
+                                        .reviews__carousel__item__avatar
+                                            img.img-responsive(src='./images/thd-avatar.png', alt='Stellen Markt - direkt')
+
+                                        .reviews__carousel__item__content
+                                            .reviews__carousel__item__content--text.
+                                                „Wir schalten seit mehreren Jahre alle unsere Stellenanzeigen bei Stellenmarkt-direkt, für unsere verschiedenen Standorte und
+                                                sind mit den Bewerberrücklauf sehr zufrieden. Bei Stellenmarkt-direkt bekommt man alles, um Bewerber zu erreichen, Print, Online und soziale Medien.“
+
+                                            .reviews__carousel__item__content--author Dipl. Betriebswirt Thomas Pfandl, Personalreferent
+
+
+                                .carousel-cell
+                                    .reviews__carousel__item
+                                        .reviews__carousel__item__avatar
+                                            img.img-responsive(src='./images/thd-avatar.png', alt='Stellen Markt - direkt')
+
+                                        .reviews__carousel__item__content
+                                            .reviews__carousel__item__content--text.
+                                                „Wir schalten seit mehreren Jahre alle unsere Stellenanzeigen bei Stellenmarkt-direkt, für unsere verschiedenen Standorte und
+                                                sind mit den Bewerberrücklauf sehr zufrieden. Bei Stellenmarkt-direkt bekommt man alles, um Bewerber zu erreichen, Print, Online und soziale Medien.“
+
+                                            .reviews__carousel__item__content--author Dipl. Betriebswirt Thomas Pfandl, Personalreferent
+
+
+                            .btn.btn--primary Kontaktieren Sie uns
+
+
+
+            //CROSS MEDIA PUBLISHING SECTION
+            .cross-media.grid-container
+                .cross-media__bg-text Cross Media Publishing
+
+                .grid-row
+                    .grid-cell.col-xs-4.col-sm-12
+                        h2.cross-media__section-title
+                            | Cross Media Publishing - Print + Online
+                            br
+                            |  und Soziale Medien macht den Unterschied!
+
+                .grid-row
+                    .grid-cell.col-xs-4.col-sm-7.col-md-8.cross-media--text
+                        p.
+                            Trotz der Stellenbörsen im Internet kann man heute nicht auf eine Veröffentlichung der
+                            Stellenausschreibung im klassischen Werbe-Instrument "Zeitung" verzichten.
+                            Dazu bietet sich ideal unsere Fachzeitung «Stellenmarkt-direkt» an, die bereits seit
+                            1999 samstags deutschlandweit im Zeitschriftenhandel erscheint.
+                        p.lead Riesiges Angebot - Aktuell sind es 442.842 Angebote
+
+                        p.
+                            Schon seit Jahren gehört unser Suchportal zu den am stärksten frequentierten Jobbörsen
+                            im deutschen Markt. Ihr Stellenangebot kann noch heute online gehen.
+
+                        p.lead Multi-Channel-Posting (MCP) - Anmeldung Ihrer Stellenausschreibung an bis zu 350 weiteren Jobbörsen und Suchmaschinen
+
+                        p Mit der Veröffentlichung bei uns, sichern wir Ihnen kurzfristig die Anmeldung Ihres Stellenangebotes an bis zu 350 Jobbörsen und Suchmaschinen zu. Unser erfahrenes Team unterstützt Sie kompetent und berät Sie gern in allen offenen Fragen.
+
+                        p.lead Soziale Medien
+
+                        p Facebook, Google+, Twitter, Xing, LinkedIn
+
+                        .btn.btn--primary Jetz starten
+
+                    .grid-cell.col-xs-4.col-sm-5.col-md-4.cross-media--media
+                        img.img-responsive(src='./images/smd_paper.png', alt='Stellen Markt direkt Paper')
+
+                        .btn.btn--small.btn--primary Jetz starten
+
+
+            //SOCIALS SECTION
+            .socials
+                .socials__bg-text Soziale Medien
+
+                .grid-container
+                    .grid-row
+                        .grid-cell.col-xs-4.col-sm-12
+                            h2.socials__section-title Teilen Sie Ihre Gedanken
+
+                            .socials__content
+                                a(href="#").fa-stack.fa-2x
+                                    i.fas.fa-circle.fa-stack-2x.fa-inverse
+                                    i.fab.fa-facebook-f.fa-stack-1x
+
+                                a(href="#").fa-stack.fa-2x
+                                    i.fas.fa-circle.fa-stack-2x.fa-inverse
+                                    i.fab.fa-twitter.fa-stack-1x
+
+                                a(href="#").fa-stack.fa-2x
+                                    i.fas.fa-circle.fa-stack-2x.fa-inverse
+                                    i.fab.fa-xing.fa-stack-1x
+
+                                a(href="#").fa-stack.fa-2x
+                                    i.fas.fa-circle.fa-stack-2x.fa-inverse
+                                    i.fab.fa-linkedin-in.fa-stack-1x
+
+                                a(href="#").fa-stack.fa-2x
+                                    i.fas.fa-circle.fa-stack-2x.fa-inverse
+                                    i.fab.fa-google-plus-g.fa-stack-1x
+
+            //SOCIALS SECTION
+            .sources
+                .sources__bg-text Teilnehmenden Jobbörsen
+
+                .grid-container
+                    .grid-row
+                        .grid-cell.col-xs-4.col-sm-12
+                            .sources__section-title
+                                | Nachfolgend ein Auszug
+                                br
+                                | der Teilnehmenden Jobbörsen
+
+                            .sources__carousel(data-flickity-carousel)
+
+                                .carousel-cell
+                                    img.img-responsive(src="./images/Jobrapido.png" alt="Jobrapido")
+
+                                .carousel-cell
+                                    img.img-responsive(src="./images/Google.png" alt="Google")
+
+                                .carousel-cell
+                                    img.img-responsive(src="./images/neuvco.png" alt="neuvco")
+
+                                .carousel-cell
+                                    img.img-responsive(src="./images/adzuna.png" alt="adzuna")
+
+                                .carousel-cell
+                                    img.img-responsive(src="./images/jobkralle.png" alt="jobkralle")
+
+                                .carousel-cell
+                                    img.img-responsive(src="./images/jobkralle.png" alt="jobkralle")
+
+                                .carousel-cell
+                                    img.img-responsive(src="./images/jobkralle.png" alt="jobkralle")
+
+                            .btn.btn--primary Kontaktieren Sie uns
+
+
+
+            //CONTACTS SECTION
+            #contact-us.contact-us
+                .contact-us__bg-text Kontaktieren sie uns
+
+                .grid-container
+                    .grid-row
+                        .contact-us__contacts.grid-cell.col-xs-4.col-sm-4
+                            img.img-responsive(src="./images/RK-Cross-Media.png" alt="RK Cross Media")
+
+                            .group_contact
+                                .group_contact__title RK Cross Media GmbH
+                                .group_contact__info
+                                    | Am Stadtbad 14
+                                    br
+                                    | D-59065 Hamm
+
+                            .group_contact
+                                .group_contact__title Zentrale:
+                                .group_contact__info Tel.: 02381 - 338-900
+
+                            .group_contact
+                                .group_contact__title Anzeigenleitung:
+                                .group_contact__info
+                                    | Tel.: 02381 - 338-900
+                                    br
+                                    | Fax: 02381 - 915-199
+                                    br
+                                    | Email: kontakt (at ) stellenmarkt-direkt.de
+
+
+                        .contact-us__form.grid-cell.col-xs-4.col-sm-8
+
+                            .grid-row.contact-us__form__top
+                                .grid-cell.col-xs-4.col-sm-12.contact-us__form__top--img
+                                    img.img-responsive(src="./images/contact-img.png" alt="24/7")
+
+                                .grid-cell.col-xs-4.col-sm-12.contact-us__form__top--section-title Kontaktieren sie uns
+
+                            .form-wrap
+
+                                form.grid-row.js-form
+
+                                    .grid-cell.col-xs-4.col-sm-12.col-md-5.contact-us__form--left
+                                        label(for="name") Vor- und Nachname des Anprechparter
+                                        input(id="name" name="name" type="text"  placeholder="Ihr Name" required)
+
+                                        label(for="email") Email
+                                        input(id="email" name="email" type="email" placeholder="Ihre E-Mail" required)
+
+                                    .grid-cell.col-xs-4.col-sm-12.col-md-7.contact-us__form--right
+                                        label(for="message") Ihre Nachricht
+                                            span.option - optional
+                                        textarea(id="message" name="message" placeholder="Ihre Nachricht" )
+
+                                    .grid-cell.col-xs-4.col-sm-12
+                                        #send-message.btn.btn--primary NACHRICHT SENDEN
+
+                                #result.grid-row
+
+                                .grid-row.hide-md
+                                    .grid-cell.col-xs-4.col-sm-12
+                                        .sub-title Rechtshinweis
+                                        p.decsription.
+                                            Der Inhalt dieser Website ist urheberrechtlich geschützt. Alle Rechte
+                                            vorbehalten. Nachdruck, Aufnahme in Online-Dienste, Internet und
+                                            Vervielfältigung auf Datenträger wie CD-ROM, DVD-ROM usw. dürfen, auch
+                                            auszugsweise, nur nach vorheriger schriftlicher Zustimmung durch den Verlag
+                                            erfolgen. Eine kommerzielle Weitervermarktung des Inhalts ist untersagt. Die
+                                            RK Cross Media GmbH haftet nicht für unverlangt eingesandte Inhalte,
+                                            Manuskripte und Fotos. Für Inhalte externer Links und fremde Inhalte übernimmt
+                                            die RK Cross Media GmbH keine Verantwortung. Es gelten die Allgemeinen
+                                            Geschäftsbedingungen.
+
+
+            // FOOTER SECTION
+            footer.footer
+                .footer__copyright © Alle Rechte vorbehalten, 2014-2018, RK Cross Media GmbH
+
+                ul.footer__navigation
+                    li: a(href="#") AGB
+                    li: a(href="#") Cookie-Einstellungen
+                    li: a(href="#") Datenschutz
+
+
+        script(src='./js/main.js' type="application/javascript")
